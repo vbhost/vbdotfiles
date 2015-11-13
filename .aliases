@@ -1,6 +1,7 @@
 alias wkp='xset dpms force on'
 alias stayawake='while ((1)) {wkp && sleep 15} &'
 alias noblank='xset -dpms r s 14400 noblank'
+alias dot='(cd /home/vb/vbdotfiles && git add . && git commit -m "..." && git push origin master)'
 alias la='ls -A --color=tty'
 alias ll='ls -lh --color=tty'
 alias ls='ls --color=tty'
