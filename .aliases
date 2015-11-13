@@ -1,0 +1,69 @@
+alias wkp='xset dpms force on'
+alias stayawake='while ((1)) {wkp && sleep 15} &'
+alias noblank='xset -dpms r s 14400 noblank'
+alias la='ls -A --color=tty'
+alias ll='ls -lh --color=tty'
+alias ls='ls --color=tty'
+alias pn='ping -c 10 -i .2 8.8.8.8'
+alias dd='sudo dcfldd'
+alias msf='msfconsole --quiet -x \"db_connect n@msf\"'
+alias bfg='java -jar /home/n/builds/bfg.jar'
+alias unwifi='sudo airmon-ng check kill'
+alias kboff='xinput --disable AT\ Translated\ Set\ 2\ keyboard'
+alias kbon='xinput --enable AT\ Translated\ Set\ 2\ keyboard'
+alias killfoc='xdotool key super+Escape'
+alias tag1='xdotool key super+1'
+alias tag2='xdotool key super+2'
+alias tag3='xdotool key super+3'
+alias totag1='xdotool key super+shift+1'
+alias totag2='xdotool key super+shift+2'
+alias totag3='xdotool key super+shift+3'
+alias foch='xdotool key super+h'
+alias focj='xdotool key super+j'
+alias fock='xdotool key super+k'
+alias focl='xdotool key super+l'
+alias newterm='xdotool key super+Return'
+alias menu='xdotool key super+x'
+alias p='xdotool type'
+alias psp='xdotool type " "'
+alias pcr='xdotool key Return'
+alias pesc='xdotool key Escape'
+alias ptab='xdotool key Tab'
+alias stop='xdotool key ctrl+c'
+alias eof='xdotool key ctrl+d'
+alias f1='xdotool key F1'
+alias f2='xdotool key F2'
+alias f3='xdotool key F3'
+alias f4='xdotool key F4'
+alias f5='xdotool key F5'
+alias f6='xdotool key F6'
+alias f7='xdotool key F7'
+alias f8='xdotool key F8'
+alias f9='xdotool key F9'
+alias f10='xdotool key F10'
+alias f11='xdotool key F11'
+alias f12='xdotool key F12'
+
+# ubuntu-specific
+alias Y='sudo apt-get update && sudo apt-get dist-upgrade -y'
+alias toff='xinput --disable SynPS/2\ Synaptics\ TouchPad'
+alias ton='xinput --enable SynPS/2\ Synaptics\ TouchPad'
+
+#global
+    alias -g ...='../..'
+    alias -g ....='../../..'
+    alias -g .....='../../../..'
+#file extensions
+    alias -s html=chromium
+    alias -s conf=vim
+    alias -s lua=vim
+    alias -s xml=vim
+    alias -s txt=vim
+    alias -s xml=vim
+    alias -s css=vim
+    alias -s ini=vim
+    alias -s pdf=zathura
+
+		
+
+
