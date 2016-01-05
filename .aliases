@@ -7,6 +7,7 @@ alias ll='ls -lh --color=tty'
 alias ls='ls --color=tty'
 alias pn='ping -c 10 -i .2 8.8.8.8'
 alias dd='sudo dcfldd'
+alias rr='ranger'
 alias msf='msfconsole --quiet -x \"db_connect n@msf\"'
 alias bfg='java -jar /home/n/builds/bfg.jar'
 alias unwifi='sudo airmon-ng check kill'
@@ -64,7 +65,5 @@ alias ton='xinput --enable SynPS/2\ Synaptics\ TouchPad'
     alias -s css=vim
     alias -s ini=vim
     alias -s pdf=zathura
-
-		
-
-
+alias y='sudo apt-get install '
+alias burpsuite='sudo (java -jar "/opt/burpsuite/burpsuite_free_v1.6.32(1).jar")'

@@ -28,7 +28,7 @@ autoload -Uz promptinit
 autoload -U colors && colors
 
 promptinit
-prompt adam1 '24' '24'
+prompt adam1 green green
 
 
 #Numeric Keypad
